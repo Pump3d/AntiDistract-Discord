@@ -4,7 +4,7 @@ let minute;
 let intCurTime;
 let curTime;
 
-let stopTime = "11:20"; //put the time you want it to stop here
+let stopTime = "11:20"; //put the time you want it to stop here (in military time)
 
 function checkTime() {
     let cont = true;
