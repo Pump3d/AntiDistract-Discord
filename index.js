@@ -22,7 +22,7 @@ function checkTime() {
 	};
 	curTime = intCurTime.toString()
 	console.log(curTime + " MT")
-	if (hour >= 12) {
+	if (hour > 12) {
 		curTime = (Math.abs(intCurTime.substring(0, 2) - 12)).toString() + curTime.substring(2, curTime.length) + " PM"
 	} else {
 		curTime = curTime + " AM"
